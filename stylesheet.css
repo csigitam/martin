@@ -1,0 +1,249 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: #F8F9F9;
+	overflow-y: auto;
+}
+
+.logo-title {
+	line-height: 40px;
+	padding: 0 5px;
+}
+
+.nav-item.active {
+	border-bottom: 2px solid #204A87;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-nav .nav-link {
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 50px;
+	line-height: 50px; 
+	position:sticky;
+}
+
+
+
+.carousel {
+	margin-bottom: 4rem;
+}
+
+.carousel-item {
+	min-height: 100vh;
+	background-size:auto;
+	background-color: #777;
+
+}
+
+.full{
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+
+	/* Preserve aspet ratio */
+	width: 100%;
+	/*min-height: 100%;*/
+}
+
+/* .copy{ 
+z-index: 999999;
+
+}
+
+
+.hello {
+text-align: center;
+font-size: 50px;
+position: absolute;
+right: 20px;
+bottom: 1px;
+top: 1px;
+} */
+
+.heading {
+	z-index: 999;
+	padding: 290px 43.5% 0 40%;
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 80px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	color: #D0D3D4;
+}
+
+.heading1 {
+	z-index: 999;
+	padding-top: 100px;
+	position: absolute;
+	padding-left: 26%;
+	font-size: 200px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #D0D3D4;
+	/* text-align: center; */
+}
+
+.aboutx{
+	background-color: #777;
+}
+
+.copy{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.about {
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+.about1 {
+	padding-bottom: 20%
+}
+
+.event {
+	padding-top: 8%;
+	padding-bottom: 5%;
+}
+
+
+.event11 h3 {
+	padding-bottom: 4%;
+}
+
+.event12 h3 {
+	padding-bottom: 4%;
+}
+
+.more-events {
+	padding-top: 4%;
+	padding-bottom: 20%;
+}
+
+.Social{
+	padding-top: 10%;
+}
+.social1{
+	padding-top: 5%;
+	padding-bottom: 20%;
+}
+.contact1{
+	padding-top: 4%;
+	padding-bottom: 10%;
+	padding-right: 40px;
+	padding-left: 40px;
+	/* padding-bottom: 20%; */
+}
+
+.contact2{
+	padding-left: 400px;
+	padding-right: 40px;
+}
+
+.img1 {
+	/*position: relative;*/
+	border-radius: 6px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	/*margin-left: 40px;*/
+	/*margin-right: 40px;*/
+	margin-top: -100px; /*use js to get negative margin*/
+
+	box-shadow: 4px 10px #e6e6e6;
+}
+
+
+.card {
+	margin: 100px 0.5% 0;
+	padding-top: 10%;
+}
+
+.card p {
+	display: inline-block;
+	height: 10rem;
+}
+
+.fa{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 50px;
+	/* width: 90px; */
+	height: 60px;
+	text-align: center;
+	/* text-decoration: none; */
+	/* margin: 5px 2px; */
+	border-radius: 50%;
+
+}
+
+.fa:hover {
+	opacity: 0.7;
+	color: #e6e6e6;
+}
+
+.fa-facebook {
+
+	background: #F8F9F9;
+	color: #4D5656;
+}
+
+.fa-twitter {
+	background: #F8F9F9;
+	color: #4D5656;
+}
+
+.fa-linkedin {
+	background: #F8F9F9;
+	color: #4D5656;
+}
+
+.g-map iframe {
+	display:grid;
+	float:none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 200px;
+
+}
+
+.row{
+	text-align:center;
+}
+
+@media screen and (max-width:720px) {
+
+	.heading{
+		z-index: 999;
+		padding-top: 260px;
+		position: absolute;
+		padding-left: 28%;
+		padding-right: 20%;
+		font-size: 50px;
+		/* text-align: center; */
+		color: antiquewhite;
+	}
+	.heading1{
+		z-index: 999;
+		padding-top: 230px;
+		position: absolute;
+		padding-left: 10%;
+		font-size: 80px;
+		color: antiquewhite;
+		/* text-align: center; */
+	}
+
+	/* CSS for screens that are 320 pixels or less will be put in this section */
+}
+
