@@ -38,7 +38,7 @@ body {
 
 .carousel-item {
 	min-height: 100vh;
-	background-size:auto;
+	background-size:cover;
 	background-color: #777;
 
 }
@@ -50,7 +50,7 @@ body {
 
 	/* Preserve aspet ratio */
 	width: 100%;
-	/*min-height: 100%;*/
+	height: 100vh;
 }
 
 /* .copy{ 
@@ -70,26 +70,24 @@ top: 1px;
 
 .heading {
 	z-index: 999;
-	padding: 290px 43.5% 0 40%;
+	padding: 290px 20px 0 40%;
 	position: absolute;
 	display: block;
 	box-sizing: border-box;
 	width: 100%;
-	font-size: 80px;
+	font-size: 110px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	text-align: center;
 	color: #D0D3D4;
 }
 
 .heading1 {
 	z-index: 999;
-	padding-top: 100px;
+	padding-top: 150px;
 	position: absolute;
 	padding-left: 26%;
-	font-size: 200px;
+	font-size: 150px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: #D0D3D4;
-	/* text-align: center; */
 }
 
 .aboutx{
@@ -222,7 +220,7 @@ top: 1px;
 	text-align:center;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:767px) {
 
 	.heading{
 		z-index: 999;
@@ -230,7 +228,7 @@ top: 1px;
 		position: absolute;
 		padding-left: 28%;
 		padding-right: 20%;
-		font-size: 50px;
+		font-size: 2.5rem;
 		/* text-align: center; */
 		color: antiquewhite;
 	}
@@ -239,7 +237,7 @@ top: 1px;
 		padding-top: 230px;
 		position: absolute;
 		padding-left: 10%;
-		font-size: 80px;
+		font-size: 3.5rem;
 		color: antiquewhite;
 		/* text-align: center; */
 	}
@@ -247,3 +245,6 @@ top: 1px;
 	/* CSS for screens that are 320 pixels or less will be put in this section */
 }
 
+.bg-light {
+	background: #FFF !important;
+}
