@@ -1,193 +1,173 @@
 html, body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
-	height: 100%;
 	width: 100%;
 }
 body {
-	background-image: url("https://s3.amazonaws.com/backpackersverse/wp-content/uploads/2016/02/03181553/The-Best-Digital-Voice-Recorder-for-EVP-Sound-Waves-and-Ghost.jpg");
+	background: url("assets/var/main-bg.jpg") no-repeat center center fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
 	overflow-y: auto;
 	scroll-behavior: smooth;
 }
-
 .logo-title {
 	line-height: 40px;
 	padding: 0 5px;
 }
-
 .nav-item.active {
 	border-bottom: 2px solid #204A87;
 }
-
 .navbar-brand {
 	padding: 0;
 }
-
 .navbar-nav .nav-link {
-	padding-top: 0;
-	padding-bottom: 0;
 	height: 50px;
-	line-height: 50px; 
+	line-height: 50px;
+	padding-bottom: 0;
+	padding-top: 0;
 	position:sticky;
 }
 .back{
-	padding-top: 320px;
-	text-align: center;
-	background-image: url("Pictures/background.png");
-	min-height: 100vh;
+	background: url("assets/var/intro-bg.png") no-repeat center center;
 	background-size: cover;
 	margin-bottom: 150px;
+	margin: 0;
+	min-height: 100vh;
+	padding: 0;
+	text-align: center;
 }
 .back img {
-	display:block;
-	margin: 0 auto;
-	box-shadow: 0 0 10px 10px rgba(255,255,255,.5);
+	background: rgba(255, 255, 255, .25);
 	border-radius: 0 33px;
+	border: 3px #000 solid;
+	box-shadow: 0 0 12px 6px rgba(255,255,255,.5);
+	display: block;
+	left: 50%;
+	margin: 0 auto;
+	max-width: 550px;
+	padding: .5rem;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
 }
-.logo-martin{
-	padding-top: 180px;
-	padding-right: 80px;
+.logo-martin img {
+	margin: 160px 0 0;
+	box-shadow: 0 3px 50px 4px rgba(255, 0, 150, .4);
 }
 .event1 {
 	padding-top: 20px;
 }
-
 .about {
-	padding-top: 10%;
 	padding-bottom: 5%;
+	padding-top: 10%;
 }
 .all{
-	background-color: #F8F9F9;
+	margin-top: 10rem;
+	border-radius: 50px;
+	background-color: rgba(0, 20, 60, 0.5);
 }
 .about1 {
 	padding-bottom: 20%
 }
-
-
 .Social{
 	padding-top: 10%;
-	/* padding-left: 440px; */
 }
 .social1{
 	padding-top: 80px;
 }
-
 .contact1{
-	padding-top: 4%;
-	padding-bottom: 10%;
-	padding-right: 40px;
-	padding-left: 40px;
-	/* padding-bottom: 20%; */
+	padding-top: 4% 40px 10%;
 }
-
 .contact2{
 	padding-left: 400px;
 	padding-right: 40px;
 }
-
 .img1 {
-	/*position: relative;*/
 	border-radius: 6px;
-	width: 90%;
+	box-shadow: 4px 10px #e6e6e6;
 	margin-left: 5%;
 	margin-right: 5%;
-	/*margin-left: 40px;*/
-	/*margin-right: 40px;*/
-	margin-top: -100px; /*use js to get negative margin*/
-
-	box-shadow: 4px 10px #e6e6e6;
+	margin-top: -100px;
+	width: 90%;
 }
-
-
 .card {
-	/* margin: 100px 0.5% 0; */
-	/* padding-top: 10%; */
-	height: 220px;
-	padding: 15px;
 	margin: 10px;
+	min-height: 200px;
+	padding: 15px;
 }
-
 .card p {
 	display: inline-block;
-	/* height: 10rem; */
 }
-
 .fa{
+	border-radius: 50%;
+	font-size: 50px;
+	height: 60px;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-size: 50px;
-	/* width: 90px; */
-	height: 60px;
 	text-align: center;
-	/* text-decoration: none; */
-	/* margin: 5px 2px; */
-	border-radius: 50%;
-
 }
-
 .fa:hover {
-	opacity: 0.7;
 	color: #e6e6e6;
+	opacity: 0.7;
 }
-
 .fa-facebook {
-
-	background: #F8F9F9;
+	background: none;
 	color: #4D5656;
 }
-
 .fa-twitter {
-	background: #F8F9F9;
+	background: none;
 	color: #4D5656;
 }
-
 .fa-linkedin {
-	background: #F8F9F9;
+	background: none;
 	color: #4D5656;
 }
-
 .g-map iframe {
 	display:grid;
 	float:none;
-	width: 100%;
-	padding: 0;
-	margin: 0;
 	height: 200px;
-
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
-
 .row{
 	text-align:center;
 }
-
 @media screen and (max-width:767px) {
-
 	.heading{
-		z-index: 999;
-		padding-top: 260px;
-		position: absolute;
+		color: antiquewhite;
+		font-size: 2.5rem;
 		padding-left: 28%;
 		padding-right: 20%;
-		font-size: 2.5rem;
-		/* text-align: center; */
-		color: antiquewhite;
+		padding-top: 260px;
+		position: absolute;
+		z-index: 999;
 	}
 	.heading1{
-		z-index: 999;
+		color: antiquewhite;
+		font-size: 3.5rem;
+		padding-left: 10%;
 		padding-top: 230px;
 		position: absolute;
-		padding-left: 10%;
-		font-size: 3.5rem;
-		color: antiquewhite;
-		/* text-align: center; */
+		z-index: 999;
 	}
-
-	/* CSS for screens that are 320 pixels or less will be put in this section */
 }
 .last{
+	color: #FFF;
 	margin-bottom: 130px;
 	padding-bottom: 25px;
+}
+h1, #About p {
+	color: #FFF;
+}
+iframe {
+	border: none;
+	height: 700px;
+	width: 100%;
+}
+#insta-plug, #fb-plug {
+	width: 100%;
+	height: 710px;
+	overflow: scroll;
 }
