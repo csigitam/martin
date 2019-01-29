@@ -5,6 +5,9 @@
 <h1 align="center">CSI GITAM Student Branch</h1>
 <p align="center">Official Website for CSI Annual Fest 2k19: Hello M.ART.IN!</p>
 <p align="center">
+    <a href="https://csigitam.github.io/martin" target="_blank"><img alt="CSI logo" title="CSI" src="https://raw.githubusercontent.com/csigitam/martin/master/assets/brand/logo-martin.png" width="500"></a>
+</p>
+<p align="center">
     <a href="https://csigitam.github.io/martin" target="_blank"> Visit website :rocket:</a>
 </p>
 
