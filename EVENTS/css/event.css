@@ -1,0 +1,169 @@
+.csi_logo,
+.e-btn {
+    float: right;
+}
+
+.e-btn,
+.e-btn:hover {
+    transition: all .8s ease;
+}
+
+body {
+    background: url(../img/marvel.jpg) center center no-repeat fixed;
+    background-size: cover;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%
+}
+
+.csi_logo,
+.e-img {
+    padding-right: 10px;
+}
+
+.title {
+    max-width: 100%;
+    width: 100%;
+    height: 100vh
+}
+
+.csi_logo {
+    margin: 0;
+    padding-top: 20px;
+    max-height: 100px;
+    width: auto;
+}
+
+.main_logo {
+    margin: 0;
+    padding-top: 20px;
+    max-height: 100px;
+    width: 250px;
+}
+
+.main_logo {
+    padding-left: 10px
+}
+
+.e-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px
+}
+
+.e-btn:hover {
+    transform: scale(1.1)
+}
+
+.e-details {
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 80%
+}
+
+.e-img img,
+.events {
+    border-radius: 10px;
+    margin: 10px;
+    transition: all .8s ease
+}
+
+.e-img {
+    box-sizing: border-box;
+    height: 300px;
+    padding-bottom: 500px;
+    padding-right: 23px;
+}
+
+.e-img img {
+    display: block;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+.e-img img:hover {
+    transform: scale(1.03);
+    transition: all .8s ease
+}
+
+.events {
+    min-height: 300px;
+    background: rgba(178, 199, 255, .85);
+    padding: 20px
+}
+
+.events:hover {
+    transform: scale(1.03);
+    transition: all .8s ease;
+    box-shadow: 0 0 10px #fff
+}
+
+.ethereal {
+    text-align: center;
+    position: relative;
+    color: #402EAD;
+    font-size: 4em;
+    margin-top: 80px;
+    text-shadow: 5px 5px 10px #fff;
+    font-family: 'Bungee Inline', cursive
+}
+
+@media screen and (min-width:992px) {
+    .ethereal {
+        font-size: 10em;
+        margin-top: 80px
+    }
+    .portrait-type {
+        width: 60% !important
+    }
+}
+
+.gap {
+    height: 10vh
+}
+
+.footer {
+    background-color: #2B2727
+}
+
+.fb-logo {
+    margin: 0;
+    background: #FFF;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline;
+    float: left
+}
+
+#fb,
+.cprt {
+    font-family: Times;
+    color: #fff;
+    padding: 40px 0
+}
+
+.fb-logo i {
+    margin-right: 15px
+}
+
+.cprt {
+    float: right
+}
+
+#fb {
+    float: left
+}
+
+#fb a {
+    line-height: 20px;
+    display: block
+}

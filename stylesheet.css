@@ -99,6 +99,10 @@ body {
 .card p {
 	display: inline-block;
 }
+.but-pad{
+	margin-top: 25px;
+	font-size: 1.3rem;
+}
 .fa{
 	border-radius: 50%;
 	font-size: 50px;
