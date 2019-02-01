@@ -9,9 +9,12 @@
 }
 
 body {
-    background: url(../img/marvel.jpg) center center no-repeat fixed;
+    background: url(../img/back1.jpg) center center no-repeat fixed;
     background-size: cover;
     font-family: 'Source Code Pro', monospace;
+    /*background-size: cover;*/
+    overflow-y: auto;
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -70,7 +73,9 @@ body {
 
 .e-img img,
 .events {
-    border-radius: 10px;
+    text-align:center;
+    color: white; 
+    border-radius: 20px;
     margin: 10px;
     transition: all .8s ease
 }
@@ -97,7 +102,7 @@ body {
 
 .events {
     min-height: 300px;
-    background: rgba(178, 199, 255, .85);
+    background: rgba(105, 231, 242, .85);
     padding: 20px
 }
 
