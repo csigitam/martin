@@ -55,6 +55,9 @@ body {
 	margin: 160px 0 0;
 	box-shadow: 0 3px 50px 4px rgba(255, 0, 150, .4);
 }
+.event{
+	padding-top: 30px;
+}
 .event1 {
 	padding-top: 20px;
 }
@@ -76,6 +79,7 @@ body {
 .social1{
 	padding-top: 80px;
 }
+
 .contact1{
 	padding-top: 4% 40px 10%;
 }
@@ -155,6 +159,9 @@ body {
 		padding-top: 230px;
 		position: absolute;
 		z-index: 999;
+	}
+	#insta-plug{
+		padding-top: 30px;
 	}
 }
 .last{

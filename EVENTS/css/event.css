@@ -167,3 +167,11 @@ body {
     line-height: 20px;
     display: block
 }
+@media screen and (max-width:767px){
+    .main_logo {
+        margin: 0;
+        padding-top: 20px;
+        max-height: 100px;
+        width: 200px;
+    }
+}
